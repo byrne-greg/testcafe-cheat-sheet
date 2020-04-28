@@ -127,6 +127,8 @@ exports[`AboutMe matches snapshot 1`] = `
                                 All blame can be pointed to 
                                 <a
                                   href="https://www.gregbyrne.ie"
+                                  rel="noopener noreferrer"
+                                  target="_blank"
                                 >
                                   Greg Byrne
                                 </a>
