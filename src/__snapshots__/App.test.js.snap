@@ -5,14 +5,17 @@ exports[`App matches snapshot 1`] = `
   className="App"
 >
   <Header />
-  <ForwardRef
+  <Tabs
     defaultActiveKey="cheatsheet"
     id="uncontrolled-tab-example"
+    mountOnEnter={false}
     style={
       Object {
         "marginBottom": "10px",
       }
     }
+    unmountOnExit={false}
+    variant="tabs"
   >
     <Tab
       eventKey="cheatsheet"
@@ -30,6 +33,6 @@ exports[`App matches snapshot 1`] = `
         component={<UNDEFINED />}
       />
     </Tab>
-  </ForwardRef>
+  </Tabs>
 </div>
 `;
