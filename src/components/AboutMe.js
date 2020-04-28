@@ -14,7 +14,7 @@ const WhatIsThisCardContent = () => (
       book.
     </Card.Text>
     <Card.Text>
-      Maybe the Jumbotron above wasn't as explicit as I had intended?
+      Maybe the page header above wasn't as explicit as I had intended?
       <span role="img" aria-label="thinking-face">
         {" "}
         🤔
@@ -26,7 +26,7 @@ const WhatIsThisCardContent = () => (
 const WhoCreatedThisCardContent = () => (
   <Card.Body>
     <Card.Title>Who created this... thing?</Card.Title>
-    <Card.Text>All blame can be pointed to:</Card.Text>
+    <Card.Text>All blame can be pointed to <a href="https://www.gregbyrne.ie" target="_blank" rel="noopener noreferrer">Greg Byrne</a></Card.Text>
     <LinkedInBadge />
   </Card.Body>
 );

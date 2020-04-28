@@ -7,565 +7,539 @@ exports[`AboutMe matches snapshot 1`] = `
       className="card-deck"
     >
       <Card
-        as="div"
         body={false}
       >
         <div
           className="card"
         >
-          <ForwardRef>
-            <Uncontrolled(Bootstrap(ListGroup))
-              innerRef={null}
+          <ListGroup
+            horizontal={null}
+            variant={null}
+          >
+            <ForwardRef
+              as="div"
+              className="list-group"
+              onSelect={[Function]}
             >
-              <Bootstrap(ListGroup)
-                onSelect={[Function]}
+              <div
+                className="list-group"
+                onKeyDown={[Function]}
               >
-                <ListGroup
-                  as="div"
-                  bsPrefix="list-group"
-                  onSelect={[Function]}
+                <ListGroupItem
+                  active={false}
+                  disabled={false}
                   variant={null}
                 >
-                  <ContextTransform(AbstractNav)
+                  <ForwardRef
                     as="div"
-                    className="list-group"
-                    onSelect={[Function]}
+                    className="list-group-item"
+                    disabled={false}
+                    eventKey={null}
+                    onClick={[Function]}
                   >
-                    <AbstractNav
-                      as="div"
-                      className="list-group"
-                      onSelect={[Function]}
+                    <div
+                      className="list-group-item"
+                      data-rb-event-key={null}
+                      disabled={false}
+                      onClick={[Function]}
                     >
-                      <div
-                        className="list-group"
-                        onKeyDown={[Function]}
-                      >
-                        <Bootstrap(ListGroupItem)>
-                          <ListGroupItem
-                            active={false}
-                            bsPrefix="list-group-item"
-                            disabled={false}
-                            variant={null}
+                      <WhatIsThisCardContent>
+                        <CardBody>
+                          <div
+                            className="card-body"
                           >
-                            <ForwardRef
-                              as="div"
-                              className="list-group-item"
-                              disabled={false}
-                              eventKey={null}
-                              onClick={[Function]}
-                            >
-                              <div
-                                className="list-group-item"
-                                data-rb-event-key={null}
-                                disabled={false}
-                                onClick={[Function]}
+                            <CardTitle>
+                              <ForwardRef
+                                className="card-title"
                               >
-                                <WhatIsThisCardContent>
-                                  <CardBody>
-                                    <div
-                                      className="card-body"
-                                    >
-                                      <CardTitle>
-                                        <ForwardRef
-                                          className="card-title"
-                                        >
-                                          <div
-                                            className="card-title h5"
-                                          >
-                                            What is this?
-                                          </div>
-                                        </ForwardRef>
-                                      </CardTitle>
-                                      <CardText>
-                                        <p
-                                          className="card-text"
-                                        >
-                                          If you haven't guessed by now, this web app is designed as a Cheat Sheet to TestCafe. It's aim is to accelerate your usage of TestCafe with quick information. It's not designed to be a replacement for TestCafe's documentation, but rather a quick "what was that thing again?" answer book.
-                                        </p>
-                                      </CardText>
-                                      <CardText>
-                                        <p
-                                          className="card-text"
-                                        >
-                                          Maybe the Jumbotron above wasn't as explicit as I had intended?
-                                          <span
-                                            aria-label="thinking-face"
-                                            role="img"
-                                          >
-                                             
-                                            🤔
-                                          </span>
-                                        </p>
-                                      </CardText>
-                                    </div>
-                                  </CardBody>
-                                </WhatIsThisCardContent>
-                              </div>
-                            </ForwardRef>
-                          </ListGroupItem>
-                        </Bootstrap(ListGroupItem)>
-                        <Bootstrap(ListGroupItem)>
-                          <ListGroupItem
-                            active={false}
-                            bsPrefix="list-group-item"
-                            disabled={false}
-                            variant={null}
+                                <div
+                                  className="card-title h5"
+                                >
+                                  What is this?
+                                </div>
+                              </ForwardRef>
+                            </CardTitle>
+                            <CardText>
+                              <p
+                                className="card-text"
+                              >
+                                If you haven't guessed by now, this web app is designed as a Cheat Sheet to TestCafe. It's aim is to accelerate your usage of TestCafe with quick information. It's not designed to be a replacement for TestCafe's documentation, but rather a quick "what was that thing again?" answer book.
+                              </p>
+                            </CardText>
+                            <CardText>
+                              <p
+                                className="card-text"
+                              >
+                                Maybe the page header above wasn't as explicit as I had intended?
+                                <span
+                                  aria-label="thinking-face"
+                                  role="img"
+                                >
+                                   
+                                  🤔
+                                </span>
+                              </p>
+                            </CardText>
+                          </div>
+                        </CardBody>
+                      </WhatIsThisCardContent>
+                    </div>
+                  </ForwardRef>
+                </ListGroupItem>
+                <ListGroupItem
+                  active={false}
+                  disabled={false}
+                  variant={null}
+                >
+                  <ForwardRef
+                    as="div"
+                    className="list-group-item"
+                    disabled={false}
+                    eventKey={null}
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="list-group-item"
+                      data-rb-event-key={null}
+                      disabled={false}
+                      onClick={[Function]}
+                    >
+                      <WhoCreatedThisCardContent>
+                        <CardBody>
+                          <div
+                            className="card-body"
                           >
-                            <ForwardRef
-                              as="div"
-                              className="list-group-item"
-                              disabled={false}
-                              eventKey={null}
-                              onClick={[Function]}
-                            >
-                              <div
-                                className="list-group-item"
-                                data-rb-event-key={null}
-                                disabled={false}
-                                onClick={[Function]}
+                            <CardTitle>
+                              <ForwardRef
+                                className="card-title"
                               >
-                                <WhoCreatedThisCardContent>
-                                  <CardBody>
-                                    <div
-                                      className="card-body"
-                                    >
-                                      <CardTitle>
-                                        <ForwardRef
-                                          className="card-title"
-                                        >
-                                          <div
-                                            className="card-title h5"
-                                          >
-                                            Who created this... thing?
-                                          </div>
-                                        </ForwardRef>
-                                      </CardTitle>
-                                      <CardText>
-                                        <p
-                                          className="card-text"
-                                        >
-                                          All blame can be pointed to:
-                                        </p>
-                                      </CardText>
-                                      <LinkedInBadge>
-                                        <div
-                                          className="LI-profile-badge"
-                                          data-locale="en_US"
-                                          data-size="medium"
-                                          data-theme="light"
-                                          data-type="horizontal"
-                                          data-vanity="byrne-greg"
-                                          data-version="v1"
-                                        >
-                                          <a
-                                            className="LI-simple-link"
-                                            href="https://ie.linkedin.com/in/byrne-greg?trk=profile-badge"
-                                          >
-                                            Greg Byrne
-                                          </a>
-                                        </div>
-                                      </LinkedInBadge>
-                                    </div>
-                                  </CardBody>
-                                </WhoCreatedThisCardContent>
+                                <div
+                                  className="card-title h5"
+                                >
+                                  Who created this... thing?
+                                </div>
+                              </ForwardRef>
+                            </CardTitle>
+                            <CardText>
+                              <p
+                                className="card-text"
+                              >
+                                All blame can be pointed to 
+                                <a
+                                  href="https://www.gregbyrne.ie"
+                                >
+                                  Greg Byrne
+                                </a>
+                              </p>
+                            </CardText>
+                            <LinkedInBadge>
+                              <div
+                                className="LI-profile-badge"
+                                data-locale="en_US"
+                                data-size="medium"
+                                data-theme="light"
+                                data-type="horizontal"
+                                data-vanity="byrne-greg"
+                                data-version="v1"
+                              >
+                                <a
+                                  className="LI-simple-link"
+                                  href="https://ie.linkedin.com/in/byrne-greg?trk=profile-badge"
+                                >
+                                  Greg Byrne
+                                </a>
                               </div>
-                            </ForwardRef>
-                          </ListGroupItem>
-                        </Bootstrap(ListGroupItem)>
-                        <Bootstrap(ListGroupItem)>
-                          <ListGroupItem
-                            active={false}
-                            bsPrefix="list-group-item"
-                            disabled={false}
-                            variant={null}
+                            </LinkedInBadge>
+                          </div>
+                        </CardBody>
+                      </WhoCreatedThisCardContent>
+                    </div>
+                  </ForwardRef>
+                </ListGroupItem>
+                <ListGroupItem
+                  active={false}
+                  disabled={false}
+                  variant={null}
+                >
+                  <ForwardRef
+                    as="div"
+                    className="list-group-item"
+                    disabled={false}
+                    eventKey={null}
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="list-group-item"
+                      data-rb-event-key={null}
+                      disabled={false}
+                      onClick={[Function]}
+                    >
+                      <WhyWasThisCreatedCardContent>
+                        <CardBody>
+                          <div
+                            className="card-body"
                           >
-                            <ForwardRef
-                              as="div"
-                              className="list-group-item"
-                              disabled={false}
-                              eventKey={null}
-                              onClick={[Function]}
-                            >
-                              <div
-                                className="list-group-item"
-                                data-rb-event-key={null}
-                                disabled={false}
-                                onClick={[Function]}
+                            <CardTitle>
+                              <ForwardRef
+                                className="card-title"
                               >
-                                <WhyWasThisCreatedCardContent>
-                                  <CardBody>
-                                    <div
-                                      className="card-body"
+                                <div
+                                  className="card-title h5"
+                                >
+                                  Why would you create this?
+                                </div>
+                              </ForwardRef>
+                            </CardTitle>
+                            <CardText>
+                              <p
+                                className="card-text"
+                              >
+                                A number of reasons, really. The big drivers were:
+                              </p>
+                            </CardText>
+                            <ul>
+                              <li>
+                                <CardText>
+                                  <p
+                                    className="card-text"
+                                  >
+                                    I had started innovating at work with TestCafe on a front-end offering and constantly read and referred back to the TestCafe documentation, often for the next tidbit of information I needed. In fairness to the TestCafe maintainers, their documentation is nicely laid out and their search bar is super helpful. I just wanted to be selfish and have what I thought as the important information in a single page that I could refer back to with ease.
+                                  </p>
+                                </CardText>
+                              </li>
+                              <li>
+                                <CardText>
+                                  <p
+                                    className="card-text"
+                                  >
+                                    I feel a sense of personal aimlessness if I'm not pumping out code or projects every so often. Partly inspired by
+                                    <CardLink
+                                      href="https://devhints.io/"
+                                      text="devhints.io"
+                                      withPreceedingSpace={true}
                                     >
-                                      <CardTitle>
-                                        <ForwardRef
-                                          className="card-title"
+                                      <CardLink
+                                        href="https://devhints.io/"
+                                        rel="noopener noreferrer"
+                                        target="_blank"
+                                      >
+                                        <a
+                                          className="card-link"
+                                          href="https://devhints.io/"
+                                          rel="noopener noreferrer"
+                                          target="_blank"
                                         >
-                                          <div
-                                            className="card-title h5"
-                                          >
-                                            Why would you create this?
-                                          </div>
-                                        </ForwardRef>
-                                      </CardTitle>
-                                      <CardText>
-                                        <p
-                                          className="card-text"
-                                        >
-                                          A number of reasons, really. The big drivers were:
-                                        </p>
-                                      </CardText>
-                                      <ul>
-                                        <li>
-                                          <CardText>
-                                            <p
-                                              className="card-text"
-                                            >
-                                              I had started innovating at work with TestCafe on a front-end offering and constantly read and referred back to the TestCafe documentation, often for the next tidbit of information I needed. In fairness to the TestCafe maintainers, their documentation is nicely laid out and their search bar is super helpful. I just wanted to be selfish and have what I thought as the important information in a single page that I could refer back to with ease.
-                                            </p>
-                                          </CardText>
-                                        </li>
-                                        <li>
-                                          <CardText>
-                                            <p
-                                              className="card-text"
-                                            >
-                                              I feel a sense of personal aimlessness if I'm not pumping out code or projects every so often. Partly inspired by
-                                              <CardLink
-                                                href="https://devhints.io/"
-                                                text="devhints.io"
-                                                withPreceedingSpace={true}
-                                              >
-                                                <CardLink
-                                                  href="https://devhints.io/"
-                                                  rel="noopener noreferrer"
-                                                  target="_blank"
-                                                >
-                                                  <a
-                                                    className="card-link"
-                                                    href="https://devhints.io/"
-                                                    rel="noopener noreferrer"
-                                                    target="_blank"
-                                                  >
-                                                     devhints.io
-                                                  </a>
-                                                </CardLink>
-                                              </CardLink>
-                                              ; I found an excuse to actually read the TestCafe docs more in-depth, experiment more with component libraries, and learn about Lighthouse approval metrics. As it's mostly static information, I felt like it was low-hanging fruit I could pump out fairly quickly while learn and experiment that little bit more.
-                                            </p>
-                                          </CardText>
-                                        </li>
-                                        <li>
-                                          <CardText>
-                                            <p
-                                              className="card-text"
-                                            >
-                                              What else would I do with myself?
-                                              <span
-                                                aria-label="zany-face"
-                                                role="img"
-                                              >
-                                                 
-                                                🤪
-                                              </span>
-                                            </p>
-                                          </CardText>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </CardBody>
-                                </WhyWasThisCreatedCardContent>
-                              </div>
-                            </ForwardRef>
-                          </ListGroupItem>
-                        </Bootstrap(ListGroupItem)>
-                        <Bootstrap(ListGroupItem)>
-                          <ListGroupItem
-                            active={false}
-                            bsPrefix="list-group-item"
-                            disabled={false}
-                            variant={null}
+                                           devhints.io
+                                        </a>
+                                      </CardLink>
+                                    </CardLink>
+                                    ; I found an excuse to actually read the TestCafe docs more in-depth, experiment more with component libraries, and learn about Lighthouse approval metrics. As it's mostly static information, I felt like it was low-hanging fruit I could pump out fairly quickly while learn and experiment that little bit more.
+                                  </p>
+                                </CardText>
+                              </li>
+                              <li>
+                                <CardText>
+                                  <p
+                                    className="card-text"
+                                  >
+                                    What else would I do with myself?
+                                    <span
+                                      aria-label="zany-face"
+                                      role="img"
+                                    >
+                                       
+                                      🤪
+                                    </span>
+                                  </p>
+                                </CardText>
+                              </li>
+                            </ul>
+                          </div>
+                        </CardBody>
+                      </WhyWasThisCreatedCardContent>
+                    </div>
+                  </ForwardRef>
+                </ListGroupItem>
+                <ListGroupItem
+                  active={false}
+                  disabled={false}
+                  variant={null}
+                >
+                  <ForwardRef
+                    as="div"
+                    className="list-group-item"
+                    disabled={false}
+                    eventKey={null}
+                    onClick={[Function]}
+                  >
+                    <div
+                      className="list-group-item"
+                      data-rb-event-key={null}
+                      disabled={false}
+                      onClick={[Function]}
+                    >
+                      <WhatWasItMadeWithCardContent>
+                        <CardBody>
+                          <div
+                            className="card-body"
                           >
-                            <ForwardRef
-                              as="div"
-                              className="list-group-item"
-                              disabled={false}
-                              eventKey={null}
-                              onClick={[Function]}
-                            >
-                              <div
-                                className="list-group-item"
-                                data-rb-event-key={null}
-                                disabled={false}
-                                onClick={[Function]}
+                            <CardTitle>
+                              <ForwardRef
+                                className="card-title"
                               >
-                                <WhatWasItMadeWithCardContent>
-                                  <CardBody>
-                                    <div
-                                      className="card-body"
+                                <div
+                                  className="card-title h5"
+                                >
+                                  What is it made of?
+                                </div>
+                              </ForwardRef>
+                            </CardTitle>
+                            <CardSubtitle>
+                              <ForwardRef
+                                className="card-subtitle"
+                              >
+                                <div
+                                  className="card-subtitle h6"
+                                >
+                                  Web App
+                                </div>
+                              </ForwardRef>
+                            </CardSubtitle>
+                            <ul>
+                              <li>
+                                <CardLink
+                                  href="https://facebook.github.io/create-react-app/"
+                                  text="create-react-app"
+                                >
+                                  <CardLink
+                                    href="https://facebook.github.io/create-react-app/"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                  >
+                                    <a
+                                      className="card-link"
+                                      href="https://facebook.github.io/create-react-app/"
+                                      rel="noopener noreferrer"
+                                      target="_blank"
                                     >
-                                      <CardTitle>
-                                        <ForwardRef
-                                          className="card-title"
-                                        >
-                                          <div
-                                            className="card-title h5"
-                                          >
-                                            What is it made of?
-                                          </div>
-                                        </ForwardRef>
-                                      </CardTitle>
-                                      <CardSubtitle>
-                                        <ForwardRef
-                                          className="card-subtitle"
-                                        >
-                                          <div
-                                            className="card-subtitle h6"
-                                          >
-                                            Web App
-                                          </div>
-                                        </ForwardRef>
-                                      </CardSubtitle>
-                                      <ul>
-                                        <li>
-                                          <CardLink
-                                            href="https://facebook.github.io/create-react-app/"
-                                            text="create-react-app"
-                                          >
-                                            <CardLink
-                                              href="https://facebook.github.io/create-react-app/"
-                                              rel="noopener noreferrer"
-                                              target="_blank"
-                                            >
-                                              <a
-                                                className="card-link"
-                                                href="https://facebook.github.io/create-react-app/"
-                                                rel="noopener noreferrer"
-                                                target="_blank"
-                                              >
-                                                create-react-app
-                                              </a>
-                                            </CardLink>
-                                          </CardLink>
-                                           - React, and all the fanciness that goes with create-react-app!
-                                        </li>
-                                        <li>
-                                          <CardLink
-                                            href="https://react-bootstrap.netlify.com/"
-                                            text="react-bootstrap & bootstrap"
-                                          >
-                                            <CardLink
-                                              href="https://react-bootstrap.netlify.com/"
-                                              rel="noopener noreferrer"
-                                              target="_blank"
-                                            >
-                                              <a
-                                                className="card-link"
-                                                href="https://react-bootstrap.netlify.com/"
-                                                rel="noopener noreferrer"
-                                                target="_blank"
-                                              >
-                                                react-bootstrap & bootstrap
-                                              </a>
-                                            </CardLink>
-                                          </CardLink>
-                                           - the lovely component library
-                                        </li>
-                                        <li>
-                                          <CardLink
-                                            href="https://github.com/nkbt/react-copy-to-clipboard"
-                                            text="react-copy-to-cliboard"
-                                          >
-                                            <CardLink
-                                              href="https://github.com/nkbt/react-copy-to-clipboard"
-                                              rel="noopener noreferrer"
-                                              target="_blank"
-                                            >
-                                              <a
-                                                className="card-link"
-                                                href="https://github.com/nkbt/react-copy-to-clipboard"
-                                                rel="noopener noreferrer"
-                                                target="_blank"
-                                              >
-                                                react-copy-to-cliboard
-                                              </a>
-                                            </CardLink>
-                                          </CardLink>
-                                           - for all copying needs
-                                        </li>
-                                        <li>
-                                          <CardLink
-                                            href="https://github.com/conorhastings/react-syntax-highlighter"
-                                            text="react-syntax-highlighter.js"
-                                          >
-                                            <CardLink
-                                              href="https://github.com/conorhastings/react-syntax-highlighter"
-                                              rel="noopener noreferrer"
-                                              target="_blank"
-                                            >
-                                              <a
-                                                className="card-link"
-                                                href="https://github.com/conorhastings/react-syntax-highlighter"
-                                                rel="noopener noreferrer"
-                                                target="_blank"
-                                              >
-                                                react-syntax-highlighter.js
-                                              </a>
-                                            </CardLink>
-                                          </CardLink>
-                                           - the code highlighter
-                                        </li>
-                                      </ul>
-                                      <CardSubtitle>
-                                        <ForwardRef
-                                          className="card-subtitle"
-                                        >
-                                          <div
-                                            className="card-subtitle h6"
-                                          >
-                                            Build
-                                          </div>
-                                        </ForwardRef>
-                                      </CardSubtitle>
-                                      <ul>
-                                        <li>
-                                          <CardLink
-                                            href="https://github.com/"
-                                            text="Git"
-                                          >
-                                            <CardLink
-                                              href="https://github.com/"
-                                              rel="noopener noreferrer"
-                                              target="_blank"
-                                            >
-                                              <a
-                                                className="card-link"
-                                                href="https://github.com/"
-                                                rel="noopener noreferrer"
-                                                target="_blank"
-                                              >
-                                                Git
-                                              </a>
-                                            </CardLink>
-                                          </CardLink>
-                                           - for the version control
-                                        </li>
-                                        <li>
-                                          <CardLink
-                                            href="https://travis-ci.org/"
-                                            text="Travis"
-                                          >
-                                            <CardLink
-                                              href="https://travis-ci.org/"
-                                              rel="noopener noreferrer"
-                                              target="_blank"
-                                            >
-                                              <a
-                                                className="card-link"
-                                                href="https://travis-ci.org/"
-                                                rel="noopener noreferrer"
-                                                target="_blank"
-                                              >
-                                                Travis
-                                              </a>
-                                            </CardLink>
-                                          </CardLink>
-                                           - for the building on commit
-                                        </li>
-                                        <li>
-                                          <CardLink
-                                            href="https://pages.github.com/"
-                                            text="Github Pages"
-                                          >
-                                            <CardLink
-                                              href="https://pages.github.com/"
-                                              rel="noopener noreferrer"
-                                              target="_blank"
-                                            >
-                                              <a
-                                                className="card-link"
-                                                href="https://pages.github.com/"
-                                                rel="noopener noreferrer"
-                                                target="_blank"
-                                              >
-                                                Github Pages
-                                              </a>
-                                            </CardLink>
-                                          </CardLink>
-                                           - for the deployment as a static web application
-                                        </li>
-                                      </ul>
-                                      <CardSubtitle>
-                                        <ForwardRef
-                                          className="card-subtitle"
-                                        >
-                                          <div
-                                            className="card-subtitle h6"
-                                          >
-                                            Test
-                                          </div>
-                                        </ForwardRef>
-                                      </CardSubtitle>
-                                      <ul>
-                                        <li>
-                                          <CardLink
-                                            href="https://jestjs.io/"
-                                            text="Jest"
-                                          >
-                                            <CardLink
-                                              href="https://jestjs.io/"
-                                              rel="noopener noreferrer"
-                                              target="_blank"
-                                            >
-                                              <a
-                                                className="card-link"
-                                                href="https://jestjs.io/"
-                                                rel="noopener noreferrer"
-                                                target="_blank"
-                                              >
-                                                Jest
-                                              </a>
-                                            </CardLink>
-                                          </CardLink>
-                                           - delightful JavaScript testing
-                                        </li>
-                                        <li>
-                                          <CardLink
-                                            href="https://airbnb.io/enzyme/"
-                                            text="Enzyme"
-                                          >
-                                            <CardLink
-                                              href="https://airbnb.io/enzyme/"
-                                              rel="noopener noreferrer"
-                                              target="_blank"
-                                            >
-                                              <a
-                                                className="card-link"
-                                                href="https://airbnb.io/enzyme/"
-                                                rel="noopener noreferrer"
-                                                target="_blank"
-                                              >
-                                                Enzyme
-                                              </a>
-                                            </CardLink>
-                                          </CardLink>
-                                           - making it easy to test component output
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </CardBody>
-                                </WhatWasItMadeWithCardContent>
-                              </div>
-                            </ForwardRef>
-                          </ListGroupItem>
-                        </Bootstrap(ListGroupItem)>
-                      </div>
-                    </AbstractNav>
-                  </ContextTransform(AbstractNav)>
-                </ListGroup>
-              </Bootstrap(ListGroup)>
-            </Uncontrolled(Bootstrap(ListGroup))>
-          </ForwardRef>
+                                      create-react-app
+                                    </a>
+                                  </CardLink>
+                                </CardLink>
+                                 - React, and all the fanciness that goes with create-react-app!
+                              </li>
+                              <li>
+                                <CardLink
+                                  href="https://react-bootstrap.netlify.com/"
+                                  text="react-bootstrap & bootstrap"
+                                >
+                                  <CardLink
+                                    href="https://react-bootstrap.netlify.com/"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                  >
+                                    <a
+                                      className="card-link"
+                                      href="https://react-bootstrap.netlify.com/"
+                                      rel="noopener noreferrer"
+                                      target="_blank"
+                                    >
+                                      react-bootstrap & bootstrap
+                                    </a>
+                                  </CardLink>
+                                </CardLink>
+                                 - the lovely component library
+                              </li>
+                              <li>
+                                <CardLink
+                                  href="https://github.com/nkbt/react-copy-to-clipboard"
+                                  text="react-copy-to-cliboard"
+                                >
+                                  <CardLink
+                                    href="https://github.com/nkbt/react-copy-to-clipboard"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                  >
+                                    <a
+                                      className="card-link"
+                                      href="https://github.com/nkbt/react-copy-to-clipboard"
+                                      rel="noopener noreferrer"
+                                      target="_blank"
+                                    >
+                                      react-copy-to-cliboard
+                                    </a>
+                                  </CardLink>
+                                </CardLink>
+                                 - for all copying needs
+                              </li>
+                              <li>
+                                <CardLink
+                                  href="https://github.com/conorhastings/react-syntax-highlighter"
+                                  text="react-syntax-highlighter.js"
+                                >
+                                  <CardLink
+                                    href="https://github.com/conorhastings/react-syntax-highlighter"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                  >
+                                    <a
+                                      className="card-link"
+                                      href="https://github.com/conorhastings/react-syntax-highlighter"
+                                      rel="noopener noreferrer"
+                                      target="_blank"
+                                    >
+                                      react-syntax-highlighter.js
+                                    </a>
+                                  </CardLink>
+                                </CardLink>
+                                 - the code highlighter
+                              </li>
+                            </ul>
+                            <CardSubtitle>
+                              <ForwardRef
+                                className="card-subtitle"
+                              >
+                                <div
+                                  className="card-subtitle h6"
+                                >
+                                  Build
+                                </div>
+                              </ForwardRef>
+                            </CardSubtitle>
+                            <ul>
+                              <li>
+                                <CardLink
+                                  href="https://github.com/"
+                                  text="Git"
+                                >
+                                  <CardLink
+                                    href="https://github.com/"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                  >
+                                    <a
+                                      className="card-link"
+                                      href="https://github.com/"
+                                      rel="noopener noreferrer"
+                                      target="_blank"
+                                    >
+                                      Git
+                                    </a>
+                                  </CardLink>
+                                </CardLink>
+                                 - for the version control
+                              </li>
+                              <li>
+                                <CardLink
+                                  href="https://travis-ci.org/"
+                                  text="Travis"
+                                >
+                                  <CardLink
+                                    href="https://travis-ci.org/"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                  >
+                                    <a
+                                      className="card-link"
+                                      href="https://travis-ci.org/"
+                                      rel="noopener noreferrer"
+                                      target="_blank"
+                                    >
+                                      Travis
+                                    </a>
+                                  </CardLink>
+                                </CardLink>
+                                 - for the building on commit
+                              </li>
+                              <li>
+                                <CardLink
+                                  href="https://pages.github.com/"
+                                  text="Github Pages"
+                                >
+                                  <CardLink
+                                    href="https://pages.github.com/"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                  >
+                                    <a
+                                      className="card-link"
+                                      href="https://pages.github.com/"
+                                      rel="noopener noreferrer"
+                                      target="_blank"
+                                    >
+                                      Github Pages
+                                    </a>
+                                  </CardLink>
+                                </CardLink>
+                                 - for the deployment as a static web application
+                              </li>
+                            </ul>
+                            <CardSubtitle>
+                              <ForwardRef
+                                className="card-subtitle"
+                              >
+                                <div
+                                  className="card-subtitle h6"
+                                >
+                                  Test
+                                </div>
+                              </ForwardRef>
+                            </CardSubtitle>
+                            <ul>
+                              <li>
+                                <CardLink
+                                  href="https://jestjs.io/"
+                                  text="Jest"
+                                >
+                                  <CardLink
+                                    href="https://jestjs.io/"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                  >
+                                    <a
+                                      className="card-link"
+                                      href="https://jestjs.io/"
+                                      rel="noopener noreferrer"
+                                      target="_blank"
+                                    >
+                                      Jest
+                                    </a>
+                                  </CardLink>
+                                </CardLink>
+                                 - delightful JavaScript testing
+                              </li>
+                              <li>
+                                <CardLink
+                                  href="https://airbnb.io/enzyme/"
+                                  text="Enzyme"
+                                >
+                                  <CardLink
+                                    href="https://airbnb.io/enzyme/"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                  >
+                                    <a
+                                      className="card-link"
+                                      href="https://airbnb.io/enzyme/"
+                                      rel="noopener noreferrer"
+                                      target="_blank"
+                                    >
+                                      Enzyme
+                                    </a>
+                                  </CardLink>
+                                </CardLink>
+                                 - making it easy to test component output
+                              </li>
+                            </ul>
+                          </div>
+                        </CardBody>
+                      </WhatWasItMadeWithCardContent>
+                    </div>
+                  </ForwardRef>
+                </ListGroupItem>
+              </div>
+            </ForwardRef>
+          </ListGroup>
         </div>
       </Card>
     </div>
