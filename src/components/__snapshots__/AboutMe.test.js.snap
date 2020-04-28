@@ -70,7 +70,7 @@ exports[`AboutMe matches snapshot 1`] = `
                               <p
                                 className="card-text"
                               >
-                                Maybe the Jumbotron above wasn't as explicit as I had intended?
+                                Maybe the page header above wasn't as explicit as I had intended?
                                 <span
                                   aria-label="thinking-face"
                                   role="img"
@@ -124,7 +124,12 @@ exports[`AboutMe matches snapshot 1`] = `
                               <p
                                 className="card-text"
                               >
-                                All blame can be pointed to:
+                                All blame can be pointed to 
+                                <a
+                                  href="https://www.gregbyrne.ie"
+                                >
+                                  Greg Byrne
+                                </a>
                               </p>
                             </CardText>
                             <LinkedInBadge>
