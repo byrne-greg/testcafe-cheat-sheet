@@ -164,14 +164,16 @@ exports[`CardContainer matches snapshot 1`] = `
       spinnerAnimation="grow"
     />
   </CardColumns>
-  <Bootstrap(undefined)
+  <Navbar
     bg="light"
+    collapseOnSelect={false}
+    expand={true}
     fixed="bottom"
     variant="light"
   >
     <Search
       handleChange={[Function]}
     />
-  </Bootstrap(undefined)>
+  </Navbar>
 </Fragment>
 `;
